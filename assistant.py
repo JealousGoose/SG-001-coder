@@ -236,7 +236,7 @@ if __name__ == '__main__':
 			exit()
 
 		elif "who made you" in query or "who created you" in query:
-			speak("I have been created by Gaurav.")
+			speak("I have been created by Shital.")
 			
 		elif 'joke' in query:
 			speak(pyjokes.get_joke())
@@ -245,13 +245,13 @@ if __name__ == '__main__':
 			speak("If you talk then definately your human.")
 
 		elif "why you came to world" in query:
-			speak("Thanks to Gaurav. further It's a secret")
+			speak("Thanks to Shital. further It's a secret")
 
 		elif 'is love' in query:
 			speak("It is 7th sense that destroy all other senses")
 
 		elif "who are you" in query:
-			speak("I am your virtual assistant created by Gaurav")
+			speak("I am your virtual assistant")
 
 		elif 'reason for you' in query:
 			speak("I was created as a Minor project by Mister Gaurav ")
@@ -330,9 +330,6 @@ if __name__ == '__main__':
 			speak("How are you Mister")
 			speak(assname)
 
-		elif "will you be my gf" in query or "will you be my bf" in query:
-			speak("I'm not sure about, may be you should give me some time")
-
 		elif "how are you" in query:
 			speak("I'm fine, glad you me that")
 
@@ -361,11 +358,6 @@ if __name__ == '__main__':
 			speak("What website should i open for you?")
 			name=takeCommand()
 			web="https://www."+name+".com"
-
-		elif "call sani" in query or "call saini" in query:
-			speak("trying to call..")
-			print("Calling......")
-			webbrowser.open("https://www.facebook.com/videocall/incall/?peer_id=100007920451548&call_id=2341157218&is_caller=true&audio_only=false&nonce=on8cdeixjy6p&initialize_video=true")
 
 		elif "fuck" in query or "shit" in query or "f***" in query or "lamo" in query or "a**" in query or "lmao" in query:
 			speak("haha Rough words on me, I'm already into that shit")
